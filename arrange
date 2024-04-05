@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for i in {Z..A}
+do mv files/$i* $i
+done
+
+for i in {z..a}
+do mv files/$i* $i
+done
